@@ -12,7 +12,7 @@ public class FeatureDevelopment {
         System.out.println(Arrays.toString(new Solution().solution(progresses, speeds)));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[] solution(int[] progresses, int[] speeds) {
 
             int max = 0;
