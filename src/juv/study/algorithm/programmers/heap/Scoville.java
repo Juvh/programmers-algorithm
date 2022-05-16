@@ -22,7 +22,7 @@ public class Scoville {
                 if (first > K) {
                     return cnt;
                 }
-                if (priorityQueue.size() == 1) {
+                if (priorityQueue.size() == 0) {
                     return -1;
                 }
                 Integer second = priorityQueue.poll();
